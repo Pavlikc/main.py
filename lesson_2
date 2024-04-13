@@ -1,0 +1,9 @@
+from random import choice
+
+symbol = "+-/*!&$#?=@abcdefghijklnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890"
+len_pass = int(input("Введите длину пароля"))
+password = ''
+for i in range(len_pass):
+    password += choice(symbol)
+
+print("Ваш пароль это", password)
