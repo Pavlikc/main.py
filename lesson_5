@@ -9,7 +9,9 @@ intents.message_content = True
 command_info = [
     "1. add - сложение двух чисел",
     "2. spam - спам бот",
-    "3. repeat - повторение до определённого числа"
+    "3. repeat - повторение до определённого числа",
+    "4. mem - какой-то мем",
+    "5. duck - изображение утки"
 ]
 
 bot = commands.Bot(command_prefix='.', intents=intents)
