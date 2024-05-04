@@ -47,7 +47,7 @@ async def mem(ctx):
         img = ('mem2.jpg')
     elif img_ >= 0.2 and img_ << 0.4:
         img = ('mem3.jpg')
-    elif img_ >= 0 and img_ << 0.3:
+    elif img_ >= 0 and img_ << 0.2:
         img = ('mem5.jpg')
     
     with open(f'images/{img}', 'rb') as f:
